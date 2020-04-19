@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinque Mason</title>
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        font: 400 15px/1.8 "Lato", sans-serif;
+        color: #777;
+        scroll-behavior: smooth;
+      }
+
+      .bgimg-1,
+      .bgimg-2,
+      .bgimg-3 {
+        position: relative;
+        opacity: 0.65;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .bgimg-1 {
+        background-image: url("bgimg-1.jpg");
+        min-height: 100%;
+      }
+
+      .bgimg-2 {
+        background-image: url("bgimg-2.jpg");
+        min-height: 500px;
+      }
+
+      .bgimg-3 {
+        background-image: url("bgimg-3.jpg");
+        min-height: 500px;
+      }
+
+      .caption {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+      }
+
+      .caption span.border {
+        background-color: #111;
+        color: #fff;
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 10px;
+        margin-top: 0;
+      }
+
+      h3 {
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font: 20px "Lato", sans-serif;
+        color: #111;
+      }
+
+      p {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 15px;
+      }
+      /* Turn off parallax scrolling for tablets and phones */
+      @media only screen and (max-device-width: 1024px) {
+        .bgimg-1,
+        .bgimg-2,
+        .bgimg-3 {
+          background-attachment: scroll;
+        }
+      }
+
+      /* Position the navbar container inside the image */
+      .container {
+        position: absolute;
+        margin: 20px;
+        width: auto;
+      }
+
+      /* The navbar */
+      .topnav {
+        overflow: hidden;
+        background-color: black;
+      }
+
+      /* Navbar links */
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="bgimg-1">
+      <div class="container">
+        <div class="topnav">
+          <nav>
+            <a href="#bio" id="back-to-top">Bio</a>
+            <a href="#podcast">Podcast</a>
+            <a href="#blog">Blog</a>
+            <a href="#getinvolved">Get Involved</a>
+            <a href="/news">News</a>
+            <a href="/contact">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- end navbar -->
+
+    <div class="caption">
+      <span class="border">Cinque Mason</span>
+    </div>
+
+    <div
+      style="
+        color: #777;
+        background-color: white;
+        text-align: center;
+        padding: 50px 80 px;
+        text-align: justify;
+      "
+    >
+      <h3 style="text-align: center;" id="bio">
+        Bio
+      </h3>
+      <p>
+        I am Cinque Mason 19 from Denver, Colorado USA and currently in college.
+        I am in college as a communications major with Anthropology minor and
+        International development minors. I have traveled to parts of the world
+        in search of finding myself and helping others. I have been to Central
+        America/Caribbean (Costa Rica, Panama, Mexico, Turks and Caicos) North
+        America (United States, Canada) Africa(Ethiopia, Kenya) Asia (India,
+        Japan). With plans to go to 14 countries between 2020-2021 some of the
+        countries being in the Middle East and Europe. I traveled as a kid with
+        family but now have been traveling in search to learn doing research in
+        india and will be doing school in the middle east and europe.
+      </p>
+      <p>
+        I have turned my focus in life to serving people with a focus in my life
+        to work with Refugees from Natural calamities, domestic abuse and war
+        conflicts With this website and my social outreach I have the hopes to
+        get people more involved with humanity. More involved with serving
+        people, in one of the tabs I have ​Get Involved Clicking in that you
+        will be directed to a page where you can put your information in it and
+        say what you are looking to do and what part of the world you want to
+        work in. There is a podcast tab that will direct you to listen to the
+        podcast. The podcast is about my personal travels and what I learned
+        along with some private interviews with people to learn about them and
+        their perspectives.
+      </p>
+
+      <div style="text-align: center;">
+        <a href="#back-to-top" style="text-align: center; color: black;"
+          >Back to top</a
+        >
+      </div>
+    </div>
+
+    <div class="bgimg-2" id="podcast">
+      <div class="caption">
+        <span class="border">
+          Podcast
+        </span>
+      </div>
+    </div>
+
+    <div style="position: relative;">
+      <div
+        style="
+          color: #ddd;
+          background-color: #282e34;
+          text-align: center;
+          padding: 50px 80px;
+          text-align: justify;
+        "
+      >
+        <p>
+          Hey:) This is a podcast about me and my personal journey, past and
+          future. The things I have learnt and unique interviews with beautiful
+          people from around the world. This podcast has just started and there
+          are only a few episodes out right now with many more to come. I hope
+          you enjoy and give me a response with what you think.
+        </p>
+
+        <div style="text-align: center;">
+          <a href="#back-to-top" style="text-align: center; color: white;"
+            >Back to top</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="bgimg-3" id="blog">
+      <div class="caption">
+        <span class="border">Blog </span>
+      </div>
+    </div>
+
+    <div style="position: relative;">
+      <div
+        style="
+          color: #ddd;
+          background-color: #282e34;
+          text-align: center;
+          padding: 50px 80px;
+          text-align: justify;
+        "
+      >
+        <p>
+          This is the direct link to the Blog page, where I put my poems,
+          thoughts, and observances throughout the day.
+          <a href="https://cinquesblog.wordpress.com" target="_blank"
+            >https://cinquesblog.wordpress.com</a
+          >
+        </p>
+
+        <div style="text-align: center;">
+          <a href="#back-to-top" style="text-align: center; color: white;"
+            >Back to top</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="bgimg-1" id="getinvolved">
+      <div class="caption">
+        <span class="border">
+          Get Involved
+        </span>
+      </div>
+    </div>
+
+    <div style="position: relative;">
+      <div
+        style="
+          color: #ddd;
+          background-color: #282e34;
+          text-align: center;
+          padding: 50px 80px;
+          text-align: justify;
+        "
+      >
+        <p>
+          Hey this is the Get Involved page intended for people looking to do
+          service. To Get involved please put your name and email in the contact
+          box put in the subject line where in the world you would want to work,
+          what kind of work, experience and what you're comfortable with doing.
+          Please note to get involved you don't have to go abroad if you are
+          within your country and want to stay there to get involved just
+          mention that. This will send a direct email to me and I will soon
+          contact you. Thanks!
+        </p>
+
+        <div style="text-align: center;">
+          <a href="#back-to-top" style="text-align: center; color: white;"
+            >Back to top</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
