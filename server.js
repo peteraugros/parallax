@@ -9,7 +9,7 @@ require("dotenv").config();
 
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 //middleware
 app.use("/", express.static(path.join(__dirname, 'public')));
