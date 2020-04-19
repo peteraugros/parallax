@@ -26,9 +26,9 @@ app.get("/contact", (req, res) => {
 });
 
 //route for news html
-app.get("/news", (req, res) => {
-  res.sendFile(__dirname + "/news.html");
-});
+// app.get("/news", (req, res) => {
+//   res.sendFile(__dirname + "/news.html");
+// });
 
 //route for contact form
 app.post("/create_email", (req, res) => {
